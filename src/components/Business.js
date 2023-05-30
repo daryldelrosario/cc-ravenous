@@ -2,7 +2,7 @@ import React from 'react';
 
 function Business() {
     const business = {
-        imageSrc: "https://srouce.unsplash.com/random/400x300/?food",
+        imageSrc: "https://source.unsplash.com/random/400x300/?food",
         name: "Example Restaurant",
         address: "123 Demo Street",
         city: "Alpha",
@@ -24,8 +24,8 @@ function Business() {
                 <div>{`${business.city}, ${business.state} ${business.zipCode}`}</div>
             </div>
             <div>
-                <span>{business.category}</span>
-                <span>{`${business.rating} stars`}</span>
+                <span>{business.category} </span>
+                <span>{`${business.rating} stars `}</span>
                 <span>{`${business.reviewCount} reviews`}</span>
             </div>
         </div>
