@@ -1,5 +1,5 @@
 import React from 'react';
-import Business from './components/Business';
+import Business from '../Business';
 
 function App() {
     return(
